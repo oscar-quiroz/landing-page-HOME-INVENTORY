@@ -10,6 +10,7 @@ import { PreferenceComponent } from './components/preference/preference.componen
 import { OpinionComponent } from './components/opinion/opinion.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardServiceComponent } from './components/card-service/card-service.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     PreferenceComponent,
     OpinionComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    CardServiceComponent
   ],
   imports: [
     BrowserModule,

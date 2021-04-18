@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+.info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999999;
+}
+
+h4 {
+    color: #121a2b;
+}
+
+h2 {
+    color: #00c39d;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
