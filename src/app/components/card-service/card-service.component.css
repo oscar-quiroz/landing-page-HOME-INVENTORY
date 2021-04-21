@@ -7,6 +7,7 @@
     background-color: #fff;
     color: thistle!important;
     box-shadow: 9px 9px 22px -15px rgba(0, 0, 0, 0.75);
+    transition: all 1s;
     cursor: pointer;
 }
 
