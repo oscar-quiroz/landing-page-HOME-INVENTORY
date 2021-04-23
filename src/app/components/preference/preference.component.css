@@ -29,7 +29,7 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ li div {
     padding: 30px 5px 20px 5px;
 }
 
-#text-desc{
+#text-desc {
     font-size: 25px;
 }
 
@@ -46,12 +46,25 @@ li div {
     background-color: #fff;
     border-radius: 20px;
     width: 15vw;
+    height: 200px;
     text-align: center;
 }
 
 .item-preference i {
-    padding-top: 10px;;
+    padding-top: 10px;
+    ;
     font-size: 30px;
     cursor: pointer;
     color: #00c39d;
+}
+
+@media only screen and (max-width:800px) {
+    ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .item-preference {
+        width: 200px;
+    }
 }

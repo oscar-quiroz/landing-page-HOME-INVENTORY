@@ -42,3 +42,22 @@ img {
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width:700px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .content {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .first {
+        max-width: 200px;
+    }
+    .info {
+        font-size: 10px;
+    }
+}
