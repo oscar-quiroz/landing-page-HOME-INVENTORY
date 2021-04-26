@@ -1,0 +1,82 @@
+.content {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 5%;
+}
+
+.title {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.question {
+    color: #00c39d;
+    font-weight: 900;
+    white-space: pre-line;
+    font-size: 40px;
+}
+
+.content-card {
+    padding: 20px;
+    display: flex;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 9px 9px 22px -12px rgba(0, 0, 0, 0.75);
+    margin: 0px 10px;
+    transition: all 1s;
+}
+
+.card:hover {
+    background-color:rgb(226, 255, 255)
+}
+
+.client {
+    display: flex;
+}
+
+.client-img {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.stars {
+    align-self: center;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.state p {
+    display: inline;
+    font-size: 15px;
+    color:#00c39d
+}
+
+.opinion {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:1200px) {
+    .content-card {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
