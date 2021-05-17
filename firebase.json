@@ -1,0 +1,6 @@
+{
+    "hosting": {
+        "public": "dist/landing-page-home-inventory",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+}
